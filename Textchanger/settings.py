@@ -22,11 +22,13 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = os.environ['SECRET_KEY_KEY']
+# SECRET_KEY = "87zzla39uvm3ux22#yqd&ymhw=w+)y!v%dm%s*6iwm8b)af1%7"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
 ALLOWED_HOSTS = ["textchangervive.herokuapp.com","localhost"]
+
 
 
 # Application definition
